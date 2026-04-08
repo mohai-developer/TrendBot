@@ -10,21 +10,24 @@ load_dotenv()
 
 def generate_ai_summary(results):
     client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-    
+
     stocks_data = ""
     for r in results:
         if "error" not in r:
+            t = r["targets"]
             stocks_data += (
                 r["ticker"] + ": "
+                "السعر=" + str(r["price"]) + ", "
                 "الاتجاه=" + r["direction"] + ", "
-                "الخط=" + r["line_type"] + " (" + r["strength"] + "), "
+                "الخط=" + r["line_type"] + " (" + r["strength"] + ") عند " + str(r["line_val"]) + ", "
                 "السحابة=" + r["cloud_phase"] + " " + r["cloud_color"] + ", "
-                "الحجم=" + r["volume_status"] + "\n"
+                "الحجم=" + r["volume_status"] + ", "
+                "SL=" + str(t["sl"]) + " TP1=" + str(t["tp1"]) + " TP2=" + str(t["tp2"]) + " TP3=" + str(t["tp3"]) + "\n"
             )
 
     prompt = """أنت محلل مالي محترف. لكل سهم في القائمة التالية اكتب جملة تحليلية واحدة سلسة وطبيعية تصف وضعه.
 الجملة يجب أن تربط العوامل ببعض بشكل منطقي مثل:
-"NVDA يتراجع نحو خط دعم قوي في ظل استمرار السحابة الحمراء وحجم ضعيف، مما يرجح استمرار الضغط البيعي"
+"NVDA يتراجع نحو خط دعم قوي عند 118 في ظل استمرار السحابة الحمراء وحجم ضعيف، مما يرجح استمرار الضغط البيعي"
 
 البيانات:
 """ + stocks_data + """
@@ -39,8 +42,7 @@ TICKER: الجملة
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}]
     )
-    
-    # نحوّل الرد لـ dict
+
     summaries = {}
     for line in response.content[0].text.strip().split("\n"):
         if ":" in line:
@@ -48,13 +50,11 @@ TICKER: الجملة
             ticker = parts[0].strip()
             summary = parts[1].strip()
             summaries[ticker] = summary
-    
-    # نضيف الجملة لكل سهم
+
     for r in results:
         if "error" not in r:
             r["summary"] = summaries.get(r["ticker"], r["ticker"] + " - لا يوجد تحليل")
-    
-    # ملخص عام
+
     prompt2 = "في جملتين فقط، لخّص الوضع العام لهذه الأسهم بأسلوب محلل محترف:\n" + stocks_data
     response2 = client.messages.create(
         model="claude-sonnet-4-20250514",
@@ -62,6 +62,7 @@ TICKER: الجملة
         messages=[{"role": "user", "content": prompt2}]
     )
     return response2.content[0].text
+
 def generate_html(results, ai_summary):
     now = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
     cards = ""
@@ -69,27 +70,52 @@ def generate_html(results, ai_summary):
         if "error" in r:
             cards += '<div class="card error"><h2>' + r["ticker"] + '</h2><p>خطأ في جلب البيانات</p></div>'
             continue
-        is_bull     = "صعوداً" in r["direction"] or "صعود" in r["direction"]
+
+        is_bull     = "اخترق" in r["direction"] or "صعود" in r["direction"]
         card_class  = "bullish" if is_bull else "bearish"
         arrow       = "UP" if is_bull else "DN"
         cloud_dir   = "Green" if r["cloud_color"] == "خضراء" else "Red"
         badge_class = "strong" if r["strength"] == "قوي" else "weak"
+        t           = r["targets"]
+
         cards += (
             '<div class="card ' + card_class + '">'
+
+            # Header
             '<div class="card-header">'
-            '<div class="data-info">Data: ' + r["last_date"] + ' | ' + r["timeframe"] + '</div>'
             '<span class="ticker">' + r["ticker"] + '</span>'
+            '<span class="price">$' + str(r["price"]) + '</span>'
             '<span class="arrow">' + arrow + '</span>'
             '</div>'
+            '<div class="data-info">Data: ' + r["last_date"] + ' | ' + r["timeframe"] + '</div>'
+
+            # AI Summary
             '<div class="summary">' + r["summary"] + '</div>'
+
+            # Details
             '<div class="details">'
             '<div class="detail-item"><span class="label">الخط</span>'
-            '<span class="value">' + r["line_type"] + ' <span class="badge ' + badge_class + '">' + r["strength"] + '</span></span></div>'
+            '<span class="value">' + r["direction"] + ' <span class="badge ' + badge_class + '">' + r["strength"] + '</span></span></div>'
+
+            '<div class="detail-item"><span class="label">مستوى الخط</span>'
+            '<span class="value">$' + str(r["line_val"]) + '</span></div>'
+
             '<div class="detail-item"><span class="label">السحابة [' + cloud_dir + ']</span>'
             '<span class="value">' + r["cloud_phase"] + ' ' + r["cloud_color"] + '</span></div>'
+
             '<div class="detail-item"><span class="label">الحجم</span>'
             '<span class="value">' + r["volume_status"] + '</span></div>'
             '</div>'
+
+            # Targets
+            '<div class="targets">'
+            '<div class="target sl">SL: $' + str(t["sl"]) + '</div>'
+            '<div class="target tp1">TP1: $' + str(t["tp1"]) + '</div>'
+            '<div class="target tp2">TP2: $' + str(t["tp2"]) + '</div>'
+            '<div class="target tp3">TP3: $' + str(t["tp3"]) + '</div>'
+            '</div>'
+
+            # Recommendation
             '<div class="recommendation">' + r["recommendation"] + '</div>'
             '</div>'
         )
@@ -117,11 +143,13 @@ header p{font-size:0.8rem;color:#8b949e;margin-top:4px}
 .card.bullish{border-right-color:#3fb950}
 .card.bearish{border-right-color:#f85149}
 .card.error{border-right-color:#8b949e;opacity:0.6}
-.card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
 .ticker{font-size:1.3rem;font-weight:700}
+.price{font-size:1rem;color:#8b949e;font-weight:500}
 .arrow{font-size:1rem;font-weight:700;padding:3px 10px;border-radius:6px;background:#0d1117}
 .card.bullish .arrow{color:#3fb950}
 .card.bearish .arrow{color:#f85149}
+.data-info{font-size:0.72rem;color:#484f58;margin-bottom:10px}
 .summary{font-size:0.88rem;line-height:1.7;color:#8b949e;margin-bottom:12px;padding:10px;background:#0d1117;border-radius:6px}
 .details{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
 .detail-item{display:flex;justify-content:space-between;font-size:0.82rem}
@@ -130,8 +158,13 @@ header p{font-size:0.8rem;color:#8b949e;margin-top:4px}
 .badge{display:inline-block;padding:1px 7px;border-radius:10px;font-size:0.75rem;font-weight:600}
 .badge.strong{background:#1f4a1f;color:#3fb950}
 .badge.weak{background:#3a2a2a;color:#8b949e}
+.targets{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.target{padding:4px 10px;border-radius:6px;font-size:0.78rem;font-weight:600}
+.target.sl{background:#3a1a1a;color:#f85149}
+.target.tp1{background:#1a2a1a;color:#3fb950}
+.target.tp2{background:#1a2a1a;color:#3fb950;opacity:0.85}
+.target.tp3{background:#1a2a1a;color:#3fb950;opacity:0.7}
 .recommendation{font-size:0.85rem;color:#58a6ff;padding:8px 10px;background:#0d1117;border-radius:6px;font-weight:500}
-.data-info{font-size:0.75rem;color:#484f58;margin-bottom:8px;}
 footer{text-align:center;padding:24px 0 8px;font-size:0.75rem;color:#484f58}
 </style>
 </head>

@@ -175,7 +175,7 @@ footer{text-align:center;padding:24px 0 8px;font-size:0.75rem;color:#484f58}
 </header>
 <div class="ai-summary">""" + ai_summary + """</div>
 <div class="cards">""" + cards + """</div>
-<footer>TrendBot - Auto updates twice daily | <a href="https://github.com/mohai-developer/TrendBot/actions/workflows/trendbot.yml" target="_blank" style="color:#58a6ff;text-decoration:none;">Run Manual Update</a></footer>
+<footer>TrendBot - Auto updates hourly</footer>
 <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js")}</script>
 </body>
 </html>"""

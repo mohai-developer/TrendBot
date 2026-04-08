@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="TrendBot">
+<title>TrendBot</title>
+<link rel="manifest" href="/TrendBot/manifest.json">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:#0d1117;color:#e6edf3;min-height:100vh;padding:16px}
+header{text-align:center;padding:24px 0 16px;border-bottom:1px solid #21262d;margin-bottom:20px}
+header h1{font-size:1.6rem;color:#58a6ff}
+header p{font-size:0.8rem;color:#8b949e;margin-top:4px}
+.ai-summary{background:#161b22;border:1px solid #30363d;border-right:3px solid #58a6ff;border-radius:8px;padding:14px 16px;margin-bottom:20px;font-size:0.9rem;line-height:1.7;color:#c9d1d9}
+.cards{display:flex;flex-direction:column;gap:14px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px;border-right:4px solid #30363d}
+.card.bullish{border-right-color:#3fb950}
+.card.bearish{border-right-color:#f85149}
+.card.error{border-right-color:#8b949e;opacity:0.6}
+.card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.ticker{font-size:1.3rem;font-weight:700}
+.arrow{font-size:1rem;font-weight:700;padding:3px 10px;border-radius:6px;background:#0d1117}
+.card.bullish .arrow{color:#3fb950}
+.card.bearish .arrow{color:#f85149}
+.summary{font-size:0.88rem;line-height:1.7;color:#8b949e;margin-bottom:12px;padding:10px;background:#0d1117;border-radius:6px}
+.details{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.detail-item{display:flex;justify-content:space-between;font-size:0.82rem}
+.label{color:#8b949e}
+.value{color:#e6edf3;font-weight:500}
+.badge{display:inline-block;padding:1px 7px;border-radius:10px;font-size:0.75rem;font-weight:600}
+.badge.strong{background:#1f4a1f;color:#3fb950}
+.badge.weak{background:#3a2a2a;color:#8b949e}
+.recommendation{font-size:0.85rem;color:#58a6ff;padding:8px 10px;background:#0d1117;border-radius:6px;font-weight:500}
+.data-info{font-size:0.75rem;color:#484f58;margin-bottom:8px;}
+footer{text-align:center;padding:24px 0 8px;font-size:0.75rem;color:#484f58}
+</style>
+</head>
+<body>
+<header>
+  <h1>TrendBot</h1>
+  <p>Last update: 2026-04-08 15:30 UTC</p>
+</header>
+<div class="ai-summary">يُظهر قطاع أشباه الموصلات تبايناً واضحاً حيث تُقدم AMD الأداء الأقوى بعد اختراقها مستوى مقاومة قوي مع استمرار الزخم الإيجابي، بينما تواجه MU ضغوطاً هبوطية حادة بكسرها مستوى دعم قوي. في المقابل، تقف كل من AVGO وNVDA عند نقاط حاسمة قرب مستويات مقاومة قوية وسط استمرار الاتجاه الهبوطي، لكن ضعف الأحجام</div>
+<div class="cards"><div class="card bearish"><div class="card-header"><div class="data-info">Data: 2026-04-08 | Daily (1D)</div><span class="ticker">MU</span><span class="arrow">DN</span></div><div class="summary">كسر هبوطاً خط الدعم القوي وسط استمرار السحابة الحمراء وحجم ضعيف، مما يشير إلى تسارع الضغط البيعي واحتمالية استمرار التراجع.</div><div class="details"><div class="detail-item"><span class="label">الخط</span><span class="value">دعم <span class="badge strong">قوي</span></span></div><div class="detail-item"><span class="label">السحابة [Red]</span><span class="value">مستمرة حمراء</span></div><div class="detail-item"><span class="label">الحجم</span><span class="value">ضعيف</span></div></div><div class="recommendation">احتمال قوي لاستمرار الاتجاه</div></div><div class="card bearish"><div class="card-header"><div class="data-info">Data: 2026-04-08 | Daily (1D)</div><span class="ticker">AVGO</span><span class="arrow">DN</span></div><div class="summary">يقترب من خط مقاومة قوي في ظل هيمنة السحابة الحمراء وضعف الحجم، مما يزيد من صعوبة اختراق هذا المستوى ويرجح احتمالية الارتداد الهبوطي.</div><div class="details"><div class="detail-item"><span class="label">الخط</span><span class="value">مقاومة <span class="badge strong">قوي</span></span></div><div class="detail-item"><span class="label">السحابة [Red]</span><span class="value">مستمرة حمراء</span></div><div class="detail-item"><span class="label">الحجم</span><span class="value">ضعيف</span></div></div><div class="recommendation">اتجاه محتمل مع الحذر</div></div><div class="card bullish"><div class="card-header"><div class="data-info">Data: 2026-04-08 | Daily (1D)</div><span class="ticker">AMD</span><span class="arrow">UP</span></div><div class="summary">اخترق صعوداً خط المقاومة القوي مدعوماً باستمرار السحابة الخضراء، لكن ضعف الحجم يثير تساؤلات حول قوة هذا الاختراق واستدامته.</div><div class="details"><div class="detail-item"><span class="label">الخط</span><span class="value">مقاومة <span class="badge strong">قوي</span></span></div><div class="detail-item"><span class="label">السحابة [Green]</span><span class="value">مستمرة خضراء</span></div><div class="detail-item"><span class="label">الحجم</span><span class="value">ضعيف</span></div></div><div class="recommendation">احتمال قوي لاستمرار الاتجاه</div></div><div class="card bearish"><div class="card-header"><div class="data-info">Data: 2026-04-08 | Daily (1D)</div><span class="ticker">NVDA</span><span class="arrow">DN</span></div><div class="summary">يقترب من خط مقاومة قوي بينما تستمر السحابة الحمراء والحجم ضعيف، مما يجعل احتمالية فشل الاختراق وعودة الضغط البيعي مرجحة.</div><div class="details"><div class="detail-item"><span class="label">الخط</span><span class="value">مقاومة <span class="badge strong">قوي</span></span></div><div class="detail-item"><span class="label">السحابة [Red]</span><span class="value">مستمرة حمراء</span></div><div class="detail-item"><span class="label">الحجم</span><span class="value">ضعيف</span></div></div><div class="recommendation">اتجاه محتمل مع الحذر</div></div></div>
+<footer>TrendBot - Auto updates twice daily</footer>
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js")}</script>
+</body>
+</html>

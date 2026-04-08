@@ -90,7 +90,7 @@ def generate_html(results, ai_summary):
             '<div class="data-info">Data: ' + r["last_date"] + ' | ' + r["timeframe"] + '</div>'
 
             # AI Summary
-            '<div class="summary">' + r["summary"] + '</div>'
+         '<div class="summary">' + r.get("summary", r["direction"] + " - " + r["line_type"]) + '</div>'
 
             # Details
             '<div class="details">'

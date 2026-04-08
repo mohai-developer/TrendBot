@@ -2,8 +2,7 @@ name: TrendBot Daily Report
 
 on:
   schedule:
-    - cron: "30 12 * * 1-5"
-    - cron: "30 21 * * 1-5"
+    - cron: "0 * * * 1-5"
   workflow_dispatch:
 
 permissions:

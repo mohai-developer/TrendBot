@@ -33,8 +33,8 @@
     "targets": {
       "sl": 432.14,
       "tp1": 461.4,
-      "tp2": 476.03,
-      "tp3": 490.66
+      "tp2": 476.04,
+      "tp3": 490.67
     },
     "last_date": "2026-05-29",
     "timeframe": "Daily (1D)"
@@ -68,7 +68,7 @@
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "قوي",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
       "sl": 203.99,

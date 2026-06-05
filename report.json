@@ -64,17 +64,17 @@
     "price": 218.66,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 198.59,
+    "line_val": 198.36,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 210.92,
-      "tp1": 226.4,
-      "tp2": 234.14,
-      "tp3": 241.89
+      "sl": 210.93,
+      "tp1": 226.39,
+      "tp2": 234.13,
+      "tp3": 241.86
     },
     "last_date": "2026-06-04",
     "timeframe": "Daily (1D)"

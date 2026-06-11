@@ -1,5 +1,25 @@
 [
   {
+    "ticker": "MU",
+    "price": 891.88,
+    "direction": "اخترق صعوداً خط مقاومة",
+    "line_type": "مقاومة",
+    "line_val": 499.84,
+    "strength": "قوي",
+    "cloud_color": "خضراء",
+    "cloud_phase": "مستمرة",
+    "volume_status": "متوسط",
+    "recommendation": "احتمال قوي لاستمرار الاتجاه",
+    "targets": {
+      "sl": 828.95,
+      "tp1": 954.81,
+      "tp2": 1017.75,
+      "tp3": 1080.68
+    },
+    "last_date": "2026-06-10",
+    "timeframe": "Daily (1D)"
+  },
+  {
     "ticker": "AVGO",
     "price": 372.1,
     "direction": "اخترق صعوداً خط مقاومة",

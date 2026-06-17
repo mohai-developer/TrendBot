@@ -1,67 +1,67 @@
 [
   {
     "ticker": "MU",
-    "price": 1060.17,
+    "price": 1043.19,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 1060.17,
+    "line_val": 1043.19,
     "strength": "ضعيف",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 1128.35,
-      "tp1": 991.98,
-      "tp2": 923.8,
-      "tp3": 855.61
+      "sl": 1112.89,
+      "tp1": 973.49,
+      "tp2": 903.8,
+      "tp3": 834.1
     },
     "last_date": "2026-06-17",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 395.9,
+    "price": 392.9,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 355.16,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 377.26,
-      "tp1": 414.55,
-      "tp2": 433.2,
-      "tp3": 451.85
+      "sl": 374.2,
+      "tp1": 411.6,
+      "tp2": 430.31,
+      "tp3": 449.01
     },
     "last_date": "2026-06-17",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 522.72,
+    "price": 512.48,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 522.72,
+    "line_val": 512.48,
     "strength": "ضعيف",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 553.65,
-      "tp1": 491.78,
-      "tp2": 460.85,
-      "tp3": 429.91
+      "sl": 543.6,
+      "tp1": 481.36,
+      "tp2": 450.23,
+      "tp3": 419.11
     },
     "last_date": "2026-06-17",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 207.38,
+    "price": 204.65,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 198.79,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 200.12,
-      "tp1": 214.65,
-      "tp2": 221.91,
-      "tp3": 229.18
+      "sl": 197.21,
+      "tp1": 212.09,
+      "tp2": 219.53,
+      "tp3": 226.97
     },
     "last_date": "2026-06-17",
     "timeframe": "Daily (1D)"

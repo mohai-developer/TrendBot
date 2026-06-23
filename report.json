@@ -24,17 +24,17 @@
     "price": 392.13,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 355.23,
+    "line_val": 354.67,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 374.24,
-      "tp1": 410.02,
-      "tp2": 427.92,
-      "tp3": 445.81
+      "sl": 374.26,
+      "tp1": 410.0,
+      "tp2": 427.87,
+      "tp3": 445.73
     },
     "last_date": "2026-06-22",
     "timeframe": "Daily (1D)"

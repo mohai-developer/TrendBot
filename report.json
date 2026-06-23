@@ -31,10 +31,10 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 374.26,
-      "tp1": 410.0,
-      "tp2": 427.87,
-      "tp3": 445.73
+      "sl": 374.25,
+      "tp1": 410.01,
+      "tp2": 427.89,
+      "tp3": 445.77
     },
     "last_date": "2026-06-22",
     "timeframe": "Daily (1D)"
@@ -48,7 +48,7 @@
     "strength": "ضعيف",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
       "sl": 582.14,

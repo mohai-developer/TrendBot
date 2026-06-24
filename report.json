@@ -1,82 +1,62 @@
 [
   {
-    "ticker": "MU",
-    "price": 1051.77,
-    "direction": "اخترق صعوداً خط مقاومة",
-    "line_type": "مقاومة",
-    "line_val": 503.8,
-    "strength": "قوي",
-    "cloud_color": "خضراء",
-    "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
-    "recommendation": "احتمال قوي لاستمرار الاتجاه",
-    "targets": {
-      "sl": 978.44,
-      "tp1": 1125.1,
-      "tp2": 1198.42,
-      "tp3": 1271.75
-    },
-    "last_date": "2026-06-23",
-    "timeframe": "Daily (1D)"
-  },
-  {
     "ticker": "AVGO",
-    "price": 380.15,
+    "price": 384.59,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 354.71,
+    "line_val": 354.75,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 362.55,
-      "tp1": 397.75,
-      "tp2": 415.34,
-      "tp3": 432.94
+      "sl": 367.91,
+      "tp1": 401.27,
+      "tp2": 417.95,
+      "tp3": 434.64
     },
-    "last_date": "2026-06-23",
+    "last_date": "2026-06-24",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 519.85,
+    "price": 520.17,
     "direction": "يتراجع نحو خط دعم",
     "line_type": "دعم",
-    "line_val": 465.43,
+    "line_val": 468.57,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 550.39,
-      "tp1": 489.31,
-      "tp2": 458.77,
-      "tp3": 428.24
+      "sl": 550.21,
+      "tp1": 490.13,
+      "tp2": 460.1,
+      "tp3": 430.06
     },
-    "last_date": "2026-06-23",
+    "last_date": "2026-06-24",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 200.04,
+    "price": 200.7,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 212.33,
+    "line_val": 212.52,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 206.66,
-      "tp1": 193.42,
-      "tp2": 186.8,
-      "tp3": 180.18
+      "sl": 206.94,
+      "tp1": 194.45,
+      "tp2": 188.21,
+      "tp3": 181.96
     },
-    "last_date": "2026-06-23",
+    "last_date": "2026-06-24",
     "timeframe": "Daily (1D)"
   }
 ]

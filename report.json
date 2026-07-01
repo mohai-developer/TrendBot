@@ -1,27 +1,27 @@
 [
   {
     "ticker": "MU",
-    "price": 1080.35,
-    "direction": "يتداول بين الدعم والمقاومة",
-    "line_type": "دعم ومقاومة",
-    "line_val": 1080.35,
-    "strength": "ضعيف",
+    "price": 1047.78,
+    "direction": "اخترق صعوداً خط مقاومة",
+    "line_type": "مقاومة",
+    "line_val": 506.77,
+    "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
-    "recommendation": "تذبذب بدون اتجاه واضح",
+    "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 1155.2,
-      "tp1": 1005.5,
-      "tp2": 930.65,
-      "tp3": 855.8
+      "sl": 971.51,
+      "tp1": 1124.04,
+      "tp2": 1200.31,
+      "tp3": 1276.58
     },
     "last_date": "2026-07-01",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 373.46,
+    "price": 369.69,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 354.95,
@@ -31,37 +31,37 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 360.62,
-      "tp1": 386.3,
-      "tp2": 399.13,
-      "tp3": 411.97
+      "sl": 356.81,
+      "tp1": 382.57,
+      "tp2": 395.45,
+      "tp3": 408.33
     },
     "last_date": "2026-07-01",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 560.35,
+    "price": 550.07,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 560.35,
+    "line_val": 550.07,
     "strength": "ضعيف",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 589.36,
-      "tp1": 531.34,
-      "tp2": 502.32,
-      "tp3": 473.31
+      "sl": 579.22,
+      "tp1": 520.92,
+      "tp2": 491.77,
+      "tp3": 462.62
     },
     "last_date": "2026-07-01",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 196.2,
+    "price": 197.27,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
     "line_val": 202.24,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 201.36,
-      "tp1": 191.03,
-      "tp2": 185.87,
-      "tp3": 180.71
+      "sl": 202.52,
+      "tp1": 192.02,
+      "tp2": 186.76,
+      "tp3": 181.51
     },
     "last_date": "2026-07-01",
     "timeframe": "Daily (1D)"

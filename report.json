@@ -4,17 +4,17 @@
     "price": 984.75,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 507.76,
+    "line_val": 507.68,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 907.7,
-      "tp1": 1061.8,
-      "tp2": 1138.86,
-      "tp3": 1215.91
+      "sl": 907.71,
+      "tp1": 1061.79,
+      "tp2": 1138.84,
+      "tp3": 1215.88
     },
     "last_date": "2026-07-06",
     "timeframe": "Daily (1D)"
@@ -64,7 +64,7 @@
     "price": 195.55,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 202.62,
+    "line_val": 202.47,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",

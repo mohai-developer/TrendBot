@@ -1,7 +1,7 @@
 [
   {
     "ticker": "MU",
-    "price": 1006.67,
+    "price": 991.64,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 509.16,
@@ -11,70 +11,70 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 934.68,
-      "tp1": 1078.67,
-      "tp2": 1150.66,
-      "tp3": 1222.66
+      "sl": 918.78,
+      "tp1": 1064.5,
+      "tp2": 1137.36,
+      "tp3": 1210.22
     },
     "last_date": "2026-07-09",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 403.08,
+    "price": 401.11,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 355.15,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 389.45,
-      "tp1": 416.71,
-      "tp2": 430.35,
-      "tp3": 443.98
+      "sl": 387.48,
+      "tp1": 414.74,
+      "tp2": 428.38,
+      "tp3": 442.01
     },
     "last_date": "2026-07-09",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 545.24,
+    "price": 546.72,
     "direction": "يتراجع نحو خط دعم",
     "line_type": "دعم",
     "line_val": 499.9,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 575.21,
-      "tp1": 515.26,
-      "tp2": 485.29,
-      "tp3": 455.31
+      "sl": 576.69,
+      "tp1": 516.74,
+      "tp2": 486.77,
+      "tp3": 456.79
     },
     "last_date": "2026-07-09",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 204.57,
+    "price": 202.78,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 214.61,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 210.68,
-      "tp1": 198.46,
-      "tp2": 192.35,
-      "tp3": 186.23
+      "sl": 208.89,
+      "tp1": 196.67,
+      "tp2": 190.56,
+      "tp3": 184.44
     },
     "last_date": "2026-07-09",
     "timeframe": "Daily (1D)"

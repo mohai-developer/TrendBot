@@ -51,10 +51,10 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 564.68,
-      "tp1": 504.1,
+      "sl": 564.69,
+      "tp1": 504.09,
       "tp2": 473.8,
-      "tp3": 443.51
+      "tp3": 443.5
     },
     "last_date": "2026-07-13",
     "timeframe": "Daily (1D)"
@@ -68,13 +68,13 @@
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 210.01,
-      "tp1": 197.05,
-      "tp2": 190.57,
-      "tp3": 184.09
+      "sl": 210.04,
+      "tp1": 197.02,
+      "tp2": 190.52,
+      "tp3": 184.01
     },
     "last_date": "2026-07-13",
     "timeframe": "Daily (1D)"

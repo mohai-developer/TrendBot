@@ -1,27 +1,27 @@
 [
   {
     "ticker": "MU",
-    "price": 977.1,
+    "price": 974.5,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 977.1,
+    "line_val": 974.5,
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "بداية تكون",
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 1037.29,
-      "tp1": 916.91,
-      "tp2": 856.73,
-      "tp3": 796.54
+      "sl": 1034.94,
+      "tp1": 914.06,
+      "tp2": 853.61,
+      "tp3": 793.17
     },
     "last_date": "2026-07-22",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 394.34,
+    "price": 395.82,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 355.51,
@@ -31,17 +31,17 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 380.71,
-      "tp1": 407.97,
-      "tp2": 421.59,
-      "tp3": 435.22
+      "sl": 381.97,
+      "tp1": 409.66,
+      "tp2": 423.51,
+      "tp3": 437.35
     },
     "last_date": "2026-07-22",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 557.1,
+    "price": 555.13,
     "direction": "يتراجع نحو خط دعم",
     "line_type": "دعم",
     "line_val": 528.1,
@@ -51,17 +51,17 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 587.8,
-      "tp1": 526.4,
-      "tp2": 495.7,
-      "tp3": 465.0
+      "sl": 585.83,
+      "tp1": 524.43,
+      "tp2": 493.73,
+      "tp3": 463.03
     },
     "last_date": "2026-07-22",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 214.12,
+    "price": 213.59,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 219.95,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 221.32,
-      "tp1": 206.93,
-      "tp2": 199.73,
-      "tp3": 192.54
+      "sl": 220.8,
+      "tp1": 206.38,
+      "tp2": 199.18,
+      "tp3": 191.97
     },
     "last_date": "2026-07-22",
     "timeframe": "Daily (1D)"

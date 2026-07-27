@@ -11,10 +11,10 @@
     "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 958.86,
-      "tp1": 841.54,
-      "tp2": 782.87,
-      "tp3": 724.21
+      "sl": 959.78,
+      "tp1": 840.62,
+      "tp2": 781.05,
+      "tp3": 721.47
     },
     "last_date": "2026-07-27",
     "timeframe": "Daily (1D)"
@@ -24,17 +24,17 @@
     "price": 383.22,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 355.59,
+    "line_val": 355.63,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 369.52,
-      "tp1": 396.92,
-      "tp2": 410.63,
-      "tp3": 424.33
+      "sl": 369.55,
+      "tp1": 396.89,
+      "tp2": 410.57,
+      "tp3": 424.24
     },
     "last_date": "2026-07-27",
     "timeframe": "Daily (1D)"
@@ -44,17 +44,17 @@
     "price": 494.95,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 534.37,
+    "line_val": 537.5,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 525.56,
-      "tp1": 464.34,
-      "tp2": 433.73,
-      "tp3": 403.12
+      "sl": 526.21,
+      "tp1": 463.69,
+      "tp2": 432.42,
+      "tp3": 401.16
     },
     "last_date": "2026-07-27",
     "timeframe": "Daily (1D)"
@@ -64,17 +64,17 @@
     "price": 196.51,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 205.33,
+    "line_val": 205.52,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 204.21,
-      "tp1": 188.81,
-      "tp2": 181.1,
-      "tp3": 173.4
+      "sl": 204.2,
+      "tp1": 188.82,
+      "tp2": 181.13,
+      "tp3": 173.44
     },
     "last_date": "2026-07-27",
     "timeframe": "Daily (1D)"

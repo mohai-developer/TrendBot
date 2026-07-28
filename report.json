@@ -1,27 +1,27 @@
 [
   {
     "ticker": "MU",
-    "price": 826.0,
+    "price": 819.76,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 826.0,
+    "line_val": 819.76,
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 885.63,
-      "tp1": 766.37,
-      "tp2": 706.75,
-      "tp3": 647.12
+      "sl": 879.39,
+      "tp1": 760.13,
+      "tp2": 700.51,
+      "tp3": 640.88
     },
     "last_date": "2026-07-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 383.71,
+    "price": 382.05,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 355.67,
@@ -31,37 +31,37 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 370.32,
-      "tp1": 397.1,
-      "tp2": 410.48,
-      "tp3": 423.87
+      "sl": 368.66,
+      "tp1": 395.44,
+      "tp2": 408.82,
+      "tp3": 422.21
     },
     "last_date": "2026-07-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 463.47,
+    "price": 459.48,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
     "line_val": 540.64,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 495.14,
-      "tp1": 431.8,
-      "tp2": 400.14,
-      "tp3": 368.47
+      "sl": 491.14,
+      "tp1": 427.81,
+      "tp2": 396.14,
+      "tp3": 364.47
     },
     "last_date": "2026-07-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 198.13,
+    "price": 197.47,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
     "line_val": 205.71,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 205.52,
-      "tp1": 190.75,
-      "tp2": 183.36,
-      "tp3": 175.97
+      "sl": 204.87,
+      "tp1": 190.08,
+      "tp2": 182.68,
+      "tp3": 175.29
     },
     "last_date": "2026-07-28",
     "timeframe": "Daily (1D)"

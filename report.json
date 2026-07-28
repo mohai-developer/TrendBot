@@ -28,13 +28,13 @@
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 369.55,
-      "tp1": 396.89,
-      "tp2": 410.57,
-      "tp3": 424.24
+      "sl": 369.54,
+      "tp1": 396.9,
+      "tp2": 410.58,
+      "tp3": 424.25
     },
     "last_date": "2026-07-27",
     "timeframe": "Daily (1D)"

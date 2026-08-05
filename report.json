@@ -8,7 +8,7 @@
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
       "sl": 962.16,
@@ -48,7 +48,7 @@
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "قوي",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
       "sl": 552.46,

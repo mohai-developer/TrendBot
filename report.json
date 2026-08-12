@@ -11,10 +11,10 @@
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 935.34,
-      "tp1": 801.7,
-      "tp2": 734.88,
-      "tp3": 668.06
+      "sl": 935.49,
+      "tp1": 801.55,
+      "tp2": 734.58,
+      "tp3": 667.61
     },
     "last_date": "2026-08-11",
     "timeframe": "Daily (1D)"
@@ -34,7 +34,7 @@
       "sl": 401.65,
       "tp1": 430.51,
       "tp2": 444.94,
-      "tp3": 459.37
+      "tp3": 459.38
     },
     "last_date": "2026-08-11",
     "timeframe": "Daily (1D)"
@@ -54,7 +54,7 @@
       "sl": 504.46,
       "tp1": 444.18,
       "tp2": 414.04,
-      "tp3": 383.9
+      "tp3": 383.89
     },
     "last_date": "2026-08-11",
     "timeframe": "Daily (1D)"
@@ -68,13 +68,13 @@
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
       "sl": 210.58,
       "tp1": 224.42,
-      "tp2": 231.33,
-      "tp3": 238.25
+      "tp2": 231.35,
+      "tp3": 238.27
     },
     "last_date": "2026-08-11",
     "timeframe": "Daily (1D)"

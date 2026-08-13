@@ -28,7 +28,7 @@
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
       "sl": 401.54,
@@ -54,7 +54,7 @@
       "sl": 511.59,
       "tp1": 454.26,
       "tp2": 425.6,
-      "tp3": 396.94
+      "tp3": 396.93
     },
     "last_date": "2026-08-12",
     "timeframe": "Daily (1D)"

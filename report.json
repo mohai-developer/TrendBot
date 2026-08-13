@@ -1,82 +1,82 @@
 [
   {
     "ticker": "MU",
-    "price": 911.29,
+    "price": 938.58,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 911.29,
-    "strength": "ضعيف",
-    "cloud_color": "حمراء",
-    "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
-    "recommendation": "تذبذب بدون اتجاه واضح",
-    "targets": {
-      "sl": 977.47,
-      "tp1": 845.11,
-      "tp2": 778.93,
-      "tp3": 712.76
-    },
-    "last_date": "2026-08-12",
-    "timeframe": "Daily (1D)"
-  },
-  {
-    "ticker": "AVGO",
-    "price": 416.05,
-    "direction": "اخترق صعوداً خط مقاومة",
-    "line_type": "مقاومة",
-    "line_val": 393.28,
-    "strength": "قوي",
-    "cloud_color": "خضراء",
-    "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
-    "recommendation": "احتمال قوي لاستمرار الاتجاه",
-    "targets": {
-      "sl": 401.54,
-      "tp1": 430.56,
-      "tp2": 445.07,
-      "tp3": 459.58
-    },
-    "last_date": "2026-08-12",
-    "timeframe": "Daily (1D)"
-  },
-  {
-    "ticker": "AMD",
-    "price": 482.93,
-    "direction": "يتداول بين الدعم والمقاومة",
-    "line_type": "دعم ومقاومة",
-    "line_val": 482.93,
+    "line_val": 938.58,
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 511.59,
-      "tp1": 454.26,
-      "tp2": 425.6,
-      "tp3": 396.93
+      "sl": 1002.75,
+      "tp1": 874.41,
+      "tp2": 810.24,
+      "tp3": 746.07
     },
-    "last_date": "2026-08-12",
+    "last_date": "2026-08-13",
+    "timeframe": "Daily (1D)"
+  },
+  {
+    "ticker": "AVGO",
+    "price": 422.86,
+    "direction": "اخترق صعوداً خط مقاومة",
+    "line_type": "مقاومة",
+    "line_val": 392.69,
+    "strength": "قوي",
+    "cloud_color": "خضراء",
+    "cloud_phase": "مستمرة",
+    "volume_status": "ضعيف",
+    "recommendation": "احتمال قوي لاستمرار الاتجاه",
+    "targets": {
+      "sl": 408.14,
+      "tp1": 437.58,
+      "tp2": 452.31,
+      "tp3": 467.03
+    },
+    "last_date": "2026-08-13",
+    "timeframe": "Daily (1D)"
+  },
+  {
+    "ticker": "AMD",
+    "price": 493.38,
+    "direction": "يقترب من خط مقاومة",
+    "line_type": "مقاومة",
+    "line_val": 548.46,
+    "strength": "قوي",
+    "cloud_color": "حمراء",
+    "cloud_phase": "مستمرة",
+    "volume_status": "ضعيف",
+    "recommendation": "اتجاه محتمل مع الحذر",
+    "targets": {
+      "sl": 520.93,
+      "tp1": 465.83,
+      "tp2": 438.27,
+      "tp3": 410.72
+    },
+    "last_date": "2026-08-13",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 224.09,
+    "price": 225.88,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 214.68,
+    "line_val": 214.69,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 217.17,
-      "tp1": 231.01,
-      "tp2": 237.94,
-      "tp3": 244.86
+      "sl": 219.24,
+      "tp1": 232.52,
+      "tp2": 239.16,
+      "tp3": 245.79
     },
-    "last_date": "2026-08-12",
+    "last_date": "2026-08-13",
     "timeframe": "Daily (1D)"
   }
 ]

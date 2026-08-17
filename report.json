@@ -1,7 +1,27 @@
 [
   {
+    "ticker": "MU",
+    "price": 1020.71,
+    "direction": "يتداول بين الدعم والمقاومة",
+    "line_type": "دعم ومقاومة",
+    "line_val": 1020.71,
+    "strength": "ضعيف",
+    "cloud_color": "حمراء",
+    "cloud_phase": "مستمرة",
+    "volume_status": "ضعيف",
+    "recommendation": "تذبذب بدون اتجاه واضح",
+    "targets": {
+      "sl": 1082.43,
+      "tp1": 958.99,
+      "tp2": 897.28,
+      "tp3": 835.56
+    },
+    "last_date": "2026-08-17",
+    "timeframe": "Daily (1D)"
+  },
+  {
     "ticker": "AVGO",
-    "price": 397.05,
+    "price": 394.14,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 391.5,
@@ -11,17 +31,17 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 382.28,
-      "tp1": 411.81,
-      "tp2": 426.58,
-      "tp3": 441.35
+      "sl": 379.37,
+      "tp1": 408.91,
+      "tp2": 423.68,
+      "tp3": 438.45
     },
     "last_date": "2026-08-17",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 510.65,
+    "price": 509.26,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 546.12,
@@ -31,17 +51,17 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 535.52,
-      "tp1": 485.78,
-      "tp2": 460.91,
-      "tp3": 436.04
+      "sl": 534.13,
+      "tp1": 484.39,
+      "tp2": 459.52,
+      "tp3": 434.65
     },
     "last_date": "2026-08-17",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 226.2,
+    "price": 225.46,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 214.73,
@@ -51,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 220.49,
-      "tp1": 231.91,
-      "tp2": 237.62,
-      "tp3": 243.33
+      "sl": 219.75,
+      "tp1": 231.18,
+      "tp2": 236.89,
+      "tp3": 242.6
     },
     "last_date": "2026-08-17",
     "timeframe": "Daily (1D)"

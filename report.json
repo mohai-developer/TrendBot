@@ -21,20 +21,20 @@
   },
   {
     "ticker": "AVGO",
-    "price": 380.0,
-    "direction": "يقترب من خط مقاومة",
-    "line_type": "مقاومة",
-    "line_val": 390.91,
-    "strength": "قوي",
-    "cloud_color": "خضراء",
-    "cloud_phase": "مستمرة",
+    "price": NaN,
+    "direction": "يتداول بين الدعم والمقاومة",
+    "line_type": "دعم ومقاومة",
+    "line_val": NaN,
+    "strength": "ضعيف",
+    "cloud_color": "حمراء",
+    "cloud_phase": "بداية تكون",
     "volume_status": "متوسط",
-    "recommendation": "اتجاه محتمل مع الحذر",
+    "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 394.26,
-      "tp1": 365.74,
-      "tp2": 351.48,
-      "tp3": 337.21
+      "sl": NaN,
+      "tp1": NaN,
+      "tp2": NaN,
+      "tp3": NaN
     },
     "last_date": "2026-08-18",
     "timeframe": "Daily (1D)"

@@ -53,8 +53,8 @@
     "targets": {
       "sl": 492.72,
       "tp1": 453.78,
-      "tp2": 434.31,
-      "tp3": 414.84
+      "tp2": 434.3,
+      "tp3": 414.83
     },
     "last_date": "2026-08-21",
     "timeframe": "Daily (1D)"
@@ -68,7 +68,7 @@
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
       "sl": 219.43,

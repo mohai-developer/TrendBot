@@ -33,28 +33,28 @@
     "targets": {
       "sl": 370.73,
       "tp1": 346.79,
-      "tp2": 334.82,
-      "tp3": 322.85
+      "tp2": 334.81,
+      "tp3": 322.84
     },
     "last_date": "2026-08-24",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 456.74,
+    "price": 456.75,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 456.74,
+    "line_val": 456.75,
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 475.43,
-      "tp1": 438.05,
-      "tp2": 419.37,
-      "tp3": 400.68
+      "sl": 475.48,
+      "tp1": 438.02,
+      "tp2": 419.29,
+      "tp3": 400.56
     },
     "last_date": "2026-08-24",
     "timeframe": "Daily (1D)"
@@ -71,10 +71,10 @@
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 213.49,
-      "tp1": 203.47,
-      "tp2": 198.46,
-      "tp3": 193.46
+      "sl": 213.5,
+      "tp1": 203.46,
+      "tp2": 198.45,
+      "tp3": 193.43
     },
     "last_date": "2026-08-24",
     "timeframe": "Daily (1D)"

@@ -1,80 +1,80 @@
 [
   {
     "ticker": "MU",
-    "price": 1000.18,
+    "price": 998.73,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 1056.19,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 1040.13,
-      "tp1": 960.23,
-      "tp2": 920.28,
-      "tp3": 880.33
+      "sl": 1038.95,
+      "tp1": 958.52,
+      "tp2": 918.31,
+      "tp3": 878.1
     },
     "last_date": "2026-09-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 355.96,
+    "price": 354.51,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
     "line_val": 351.09,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 365.39,
-      "tp1": 346.54,
-      "tp2": 337.12,
-      "tp3": 327.7
+      "sl": 363.98,
+      "tp1": 345.04,
+      "tp2": 335.56,
+      "tp3": 326.09
     },
     "last_date": "2026-09-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 469.67,
+    "price": 472.76,
     "direction": "يتداول بين الدعم والمقاومة",
     "line_type": "دعم ومقاومة",
-    "line_val": 469.67,
+    "line_val": 472.76,
     "strength": "ضعيف",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "تذبذب بدون اتجاه واضح",
     "targets": {
-      "sl": 484.78,
-      "tp1": 454.56,
-      "tp2": 439.46,
-      "tp3": 424.35
+      "sl": 488.1,
+      "tp1": 457.42,
+      "tp2": 442.08,
+      "tp3": 426.73
     },
     "last_date": "2026-09-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 233.98,
+    "price": 230.19,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 215.0,
+    "line_val": 208.61,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 227.74,
-      "tp1": 240.22,
-      "tp2": 246.45,
-      "tp3": 252.69
+      "sl": 223.95,
+      "tp1": 236.43,
+      "tp2": 242.66,
+      "tp3": 248.9
     },
     "last_date": "2026-09-04",
     "timeframe": "Daily (1D)"

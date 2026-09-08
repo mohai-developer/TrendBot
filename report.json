@@ -1,7 +1,7 @@
 [
   {
     "ticker": "MU",
-    "price": 1007.68,
+    "price": 1000.26,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 1057.62,
@@ -11,17 +11,17 @@
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 1047.37,
-      "tp1": 967.99,
-      "tp2": 928.29,
-      "tp3": 888.6
+      "sl": 1040.6,
+      "tp1": 959.92,
+      "tp2": 919.58,
+      "tp3": 879.24
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 367.83,
+    "price": 368.56,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 382.6,
@@ -31,50 +31,50 @@
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 377.4,
-      "tp1": 358.27,
-      "tp2": 348.7,
-      "tp3": 339.13
+      "sl": 378.13,
+      "tp1": 358.99,
+      "tp2": 349.43,
+      "tp3": 339.86
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 505.19,
+    "price": 505.74,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 528.57,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "قوي",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 521.29,
-      "tp1": 489.09,
-      "tp2": 472.99,
-      "tp3": 456.9
+      "sl": 521.84,
+      "tp1": 489.64,
+      "tp2": 473.54,
+      "tp3": 457.45
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 225.66,
+    "price": 225.73,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 215.02,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 219.02,
-      "tp1": 232.31,
-      "tp2": 238.95,
-      "tp3": 245.6
+      "sl": 219.06,
+      "tp1": 232.4,
+      "tp2": 239.07,
+      "tp3": 245.75
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"

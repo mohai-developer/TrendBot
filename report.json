@@ -1,47 +1,47 @@
 [
   {
     "ticker": "MU",
-    "price": 1016.39,
+    "price": 1007.68,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 1057.62,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 1055.9,
-      "tp1": 976.87,
-      "tp2": 937.35,
-      "tp3": 897.83
+      "sl": 1047.37,
+      "tp1": 967.99,
+      "tp2": 928.29,
+      "tp3": 888.6
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 366.11,
+    "price": 367.83,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 382.6,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 375.67,
-      "tp1": 356.54,
-      "tp2": 346.97,
-      "tp3": 337.41
+      "sl": 377.4,
+      "tp1": 358.27,
+      "tp2": 348.7,
+      "tp3": 339.13
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 509.19,
+    "price": 505.19,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 528.57,
@@ -51,17 +51,17 @@
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 525.17,
-      "tp1": 493.21,
-      "tp2": 477.22,
-      "tp3": 461.24
+      "sl": 521.29,
+      "tp1": 489.09,
+      "tp2": 472.99,
+      "tp3": 456.9
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 225.87,
+    "price": 225.66,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 215.02,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 219.25,
-      "tp1": 232.49,
-      "tp2": 239.11,
-      "tp3": 245.74
+      "sl": 219.02,
+      "tp1": 232.31,
+      "tp2": 238.95,
+      "tp3": 245.6
     },
     "last_date": "2026-09-08",
     "timeframe": "Daily (1D)"

@@ -8,13 +8,13 @@
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
       "sl": 964.56,
       "tp1": 890.64,
-      "tp2": 853.68,
-      "tp3": 816.72
+      "tp2": 853.67,
+      "tp3": 816.71
     },
     "last_date": "2026-09-15",
     "timeframe": "Daily (1D)"
@@ -54,7 +54,7 @@
       "sl": 520.51,
       "tp1": 487.89,
       "tp2": 471.58,
-      "tp3": 455.28
+      "tp3": 455.27
     },
     "last_date": "2026-09-15",
     "timeframe": "Daily (1D)"

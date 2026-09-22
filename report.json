@@ -24,17 +24,17 @@
     "price": 362.66,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 377.26,
+    "line_val": 376.57,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 371.43,
-      "tp1": 353.89,
-      "tp2": 345.11,
-      "tp3": 336.34
+      "sl": 371.42,
+      "tp1": 353.9,
+      "tp2": 345.14,
+      "tp3": 336.38
     },
     "last_date": "2026-09-21",
     "timeframe": "Daily (1D)"

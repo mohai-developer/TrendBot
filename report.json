@@ -1,82 +1,82 @@
 [
   {
     "ticker": "MU",
-    "price": 1053.98,
+    "price": 1068.85,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 1077.69,
+    "line_val": 1079.12,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 1091.08,
-      "tp1": 1016.88,
-      "tp2": 979.78,
-      "tp3": 942.69
+      "sl": 1104.16,
+      "tp1": 1033.55,
+      "tp2": 998.25,
+      "tp3": 962.95
     },
-    "last_date": "2026-09-28",
+    "last_date": "2026-09-29",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 349.57,
+    "price": 357.27,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 363.99,
+    "line_val": 364.12,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 357.26,
-      "tp1": 341.88,
-      "tp2": 334.19,
-      "tp3": 326.51
+      "sl": 364.76,
+      "tp1": 349.77,
+      "tp2": 342.27,
+      "tp3": 334.77
     },
-    "last_date": "2026-09-28",
+    "last_date": "2026-09-29",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 607.87,
+    "price": 612.45,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 512.19,
+    "line_val": 511.02,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 586.5,
-      "tp1": 629.24,
-      "tp2": 650.62,
-      "tp3": 671.99
+      "sl": 591.37,
+      "tp1": 633.54,
+      "tp2": 654.63,
+      "tp3": 675.72
     },
-    "last_date": "2026-09-28",
+    "last_date": "2026-09-29",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 228.86,
+    "price": 230.2,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 215.04,
+    "line_val": 215.06,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 224.8,
-      "tp1": 232.92,
-      "tp2": 236.99,
-      "tp3": 241.05
+      "sl": 226.07,
+      "tp1": 234.33,
+      "tp2": 238.45,
+      "tp3": 242.58
     },
-    "last_date": "2026-09-28",
+    "last_date": "2026-09-29",
     "timeframe": "Daily (1D)"
   }
 ]

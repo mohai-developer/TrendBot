@@ -1,27 +1,27 @@
 [
   {
     "ticker": "MU",
-    "price": 1034.12,
-    "direction": "يقترب من خط مقاومة",
+    "price": 1088.0,
+    "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 1087.72,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
-    "recommendation": "اتجاه محتمل مع الحذر",
+    "volume_status": "متوسط",
+    "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 1072.51,
-      "tp1": 995.73,
-      "tp2": 957.34,
-      "tp3": 918.95
+      "sl": 1045.81,
+      "tp1": 1130.19,
+      "tp2": 1172.39,
+      "tp3": 1214.58
     },
     "last_date": "2026-10-07",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 370.28,
+    "price": 376.51,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 369.47,
@@ -31,37 +31,37 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 361.52,
-      "tp1": 379.04,
-      "tp2": 387.79,
-      "tp3": 396.55
+      "sl": 367.57,
+      "tp1": 385.45,
+      "tp2": 394.4,
+      "tp3": 403.34
     },
     "last_date": "2026-10-07",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 635.89,
+    "price": 645.86,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 504.0,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 614.86,
-      "tp1": 656.91,
-      "tp2": 677.94,
-      "tp3": 698.96
+      "sl": 624.83,
+      "tp1": 666.88,
+      "tp2": 687.91,
+      "tp3": 708.93
     },
     "last_date": "2026-10-07",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 238.63,
+    "price": 237.47,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 215.18,
@@ -71,10 +71,10 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 234.17,
-      "tp1": 243.1,
-      "tp2": 247.56,
-      "tp3": 252.02
+      "sl": 232.94,
+      "tp1": 242.0,
+      "tp2": 246.52,
+      "tp3": 251.05
     },
     "last_date": "2026-10-07",
     "timeframe": "Daily (1D)"

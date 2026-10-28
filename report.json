@@ -1,7 +1,7 @@
 [
   {
     "ticker": "MU",
-    "price": 975.27,
+    "price": 977.52,
     "direction": "يتراجع نحو خط دعم",
     "line_type": "دعم",
     "line_val": 936.72,
@@ -11,17 +11,17 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 1011.11,
-      "tp1": 939.43,
-      "tp2": 903.59,
-      "tp3": 867.75
+      "sl": 1013.61,
+      "tp1": 941.43,
+      "tp2": 905.33,
+      "tp3": 869.24
     },
     "last_date": "2026-10-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 349.94,
+    "price": 350.19,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 360.58,
@@ -31,17 +31,17 @@
     "volume_status": "ضعيف",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 358.39,
-      "tp1": 341.49,
-      "tp2": 333.05,
-      "tp3": 324.6
+      "sl": 358.88,
+      "tp1": 341.5,
+      "tp2": 332.81,
+      "tp3": 324.12
     },
     "last_date": "2026-10-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 567.69,
+    "price": 573.91,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 486.45,
@@ -51,30 +51,30 @@
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 545.05,
-      "tp1": 590.33,
-      "tp2": 612.97,
-      "tp3": 635.62
+      "sl": 550.49,
+      "tp1": 597.34,
+      "tp2": 620.76,
+      "tp3": 644.18
     },
     "last_date": "2026-10-28",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 219.19,
-    "direction": "اخترق صعوداً خط مقاومة",
+    "price": 215.41,
+    "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 215.46,
     "strength": "قوي",
     "cloud_color": "خضراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
-    "recommendation": "احتمال قوي لاستمرار الاتجاه",
+    "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 214.32,
-      "tp1": 224.06,
-      "tp2": 228.94,
-      "tp3": 233.81
+      "sl": 220.52,
+      "tp1": 210.3,
+      "tp2": 205.18,
+      "tp3": 200.07
     },
     "last_date": "2026-10-28",
     "timeframe": "Daily (1D)"

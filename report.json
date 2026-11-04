@@ -1,82 +1,82 @@
 [
   {
     "ticker": "MU",
-    "price": 855.1,
+    "price": 796.09,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 941.0,
+    "line_val": 942.07,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 895.67,
-      "tp1": 814.53,
-      "tp2": 773.96,
-      "tp3": 733.39
+      "sl": 835.85,
+      "tp1": 756.33,
+      "tp2": 716.57,
+      "tp3": 676.81
     },
-    "last_date": "2026-11-03",
+    "last_date": "2026-11-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 332.13,
+    "price": 325.84,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
-    "line_val": 367.54,
+    "line_val": 367.68,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "ضعيف",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 341.31,
-      "tp1": 322.95,
-      "tp2": 313.76,
-      "tp3": 304.58
+      "sl": 335.19,
+      "tp1": 316.49,
+      "tp2": 307.14,
+      "tp3": 297.8
     },
-    "last_date": "2026-11-03",
+    "last_date": "2026-11-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 483.9,
+    "price": 481.75,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
-    "line_val": 481.77,
+    "line_val": 480.6,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "قوي",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 459.31,
-      "tp1": 508.49,
-      "tp2": 533.08,
-      "tp3": 557.67
+      "sl": 457.19,
+      "tp1": 506.31,
+      "tp2": 530.87,
+      "tp3": 555.43
     },
-    "last_date": "2026-11-03",
+    "last_date": "2026-11-04",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 206.69,
-    "direction": "يقترب من خط مقاومة",
-    "line_type": "مقاومة",
-    "line_val": 215.54,
+    "price": 202.25,
+    "direction": "يتداول بين الدعم والمقاومة",
+    "line_type": "دعم ومقاومة",
+    "line_val": 203.02,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 212.02,
-      "tp1": 201.36,
-      "tp2": 196.03,
-      "tp3": 190.69
+      "sl": 207.6,
+      "tp1": 196.9,
+      "tp2": 191.55,
+      "tp3": 186.2
     },
-    "last_date": "2026-11-03",
+    "last_date": "2026-11-04",
     "timeframe": "Daily (1D)"
   }
 ]

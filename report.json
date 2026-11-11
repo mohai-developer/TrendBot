@@ -1,27 +1,27 @@
 [
   {
     "ticker": "MU",
-    "price": 716.29,
-    "direction": "كسر هبوطاً خط دعم",
-    "line_type": "دعم",
-    "line_val": 946.35,
+    "price": 725.11,
+    "direction": "يتداول بين الدعم والمقاومة",
+    "line_type": "دعم ومقاومة",
+    "line_val": 804.97,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
-    "recommendation": "احتمال قوي لاستمرار الاتجاه",
+    "volume_status": "متوسط",
+    "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 765.74,
-      "tp1": 666.85,
-      "tp2": 617.4,
-      "tp3": 567.95
+      "sl": 774.56,
+      "tp1": 675.66,
+      "tp2": 626.21,
+      "tp3": 576.76
     },
     "last_date": "2026-11-10",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AVGO",
-    "price": 331.15,
+    "price": 331.98,
     "direction": "يقترب من خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 355.25,
@@ -31,37 +31,37 @@
     "volume_status": "متوسط",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 343.91,
-      "tp1": 318.39,
-      "tp2": 305.64,
-      "tp3": 292.88
+      "sl": 344.74,
+      "tp1": 319.22,
+      "tp2": 306.47,
+      "tp3": 293.71
     },
     "last_date": "2026-11-10",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "AMD",
-    "price": 513.65,
+    "price": 515.21,
     "direction": "اخترق صعوداً خط مقاومة",
     "line_type": "مقاومة",
     "line_val": 375.22,
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "متوسط",
+    "volume_status": "قوي",
     "recommendation": "اتجاه محتمل مع الحذر",
     "targets": {
-      "sl": 482.95,
-      "tp1": 544.35,
-      "tp2": 575.05,
-      "tp3": 605.74
+      "sl": 484.51,
+      "tp1": 545.91,
+      "tp2": 576.61,
+      "tp3": 607.3
     },
     "last_date": "2026-11-10",
     "timeframe": "Daily (1D)"
   },
   {
     "ticker": "NVDA",
-    "price": 168.16,
+    "price": 168.89,
     "direction": "كسر هبوطاً خط دعم",
     "line_type": "دعم",
     "line_val": 190.53,
@@ -71,10 +71,10 @@
     "volume_status": "قوي",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 175.2,
-      "tp1": 161.12,
-      "tp2": 154.08,
-      "tp3": 147.04
+      "sl": 175.93,
+      "tp1": 161.85,
+      "tp2": 154.81,
+      "tp3": 147.77
     },
     "last_date": "2026-11-10",
     "timeframe": "Daily (1D)"

@@ -8,10 +8,10 @@
     "strength": "قوي",
     "cloud_color": "حمراء",
     "cloud_phase": "مستمرة",
-    "volume_status": "ضعيف",
+    "volume_status": "متوسط",
     "recommendation": "احتمال قوي لاستمرار الاتجاه",
     "targets": {
-      "sl": 757.49,
+      "sl": 757.5,
       "tp1": 653.05,
       "tp2": 600.82,
       "tp3": 548.6
